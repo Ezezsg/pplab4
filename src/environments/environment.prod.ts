@@ -7,5 +7,7 @@ export const environment = {
     storageBucket: "canactivate-976aa.appspot.com",
     messagingSenderId: "523338738948",
     appId: "1:523338738948:web:e2e721cd5ade3b7f857451"
-  }
+  },
+  urlGitHub:'https://api.github.com/users/Ezezsg',
+  urlServicioPaises:'https://restcountries.eu/rest/v2/region/europe'
 };
