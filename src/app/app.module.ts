@@ -19,6 +19,10 @@ import { ErrorAdminComponent } from './paginas/error-admin/error-admin.component
 import { ErrorLogeadoComponent } from './paginas/error-logeado/error-logeado.component';
 import { TablaPaisesComponent } from './paginas/tabla-paises/tabla-paises.component';
 import { ErrorComponent } from './paginas/error/error.component';
+import { RepartidorDetalleComponent } from './paginas/repartidor-detalle/repartidor-detalle.component';
+import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.component';
+import { DetallesRepartidorComponent } from './paginas/detalles-repartidor/detalles-repartidor.component';
+import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/listado-repartidores.component';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import { ErrorComponent } from './paginas/error/error.component';
     ErrorAdminComponent,
     ErrorLogeadoComponent,
     TablaPaisesComponent,
-    ErrorComponent
+    ErrorComponent,
+    RepartidorDetalleComponent,
+    DetallePaisComponent,
+    DetallesRepartidorComponent,
+    ListadoRepartidoresComponent
     
    
   ],
