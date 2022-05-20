@@ -5,6 +5,7 @@ import { LoginComponent } from './paginas/login/login.component';
 import { ErrorLogeadoComponent } from './paginas/error-logeado/error-logeado.component';
 import { ErrorAdminComponent } from './paginas/error-admin/error-admin.component';
 import { ErrorComponent } from './paginas/error/error.component'; 
+import { DeliveryComponent } from './paginas/delivery/delivery.component';
 
 import { AdminGuard } from './guards/admin.guard';
 import { UserGuard } from './guards/user.guard';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path : 'errorLogeo', component: ErrorLogeadoComponent},
   { path : 'errorAdmin', component: ErrorAdminComponent},
   { path: 'repartidor', loadChildren: () => import('./modulos/repartidor/repartidor.module').then(m => m.RepartidorModule), canActivate: [UserGuard] },
+  { path : 'delivery', component: DeliveryComponent, canActivate: [AdminGuard]},
   { path: 'error' , component: ErrorComponent},
   { path : '**', component: ErrorComponent},
 ];

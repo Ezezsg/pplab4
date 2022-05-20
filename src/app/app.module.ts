@@ -23,6 +23,10 @@ import { RepartidorDetalleComponent } from './paginas/repartidor-detalle/reparti
 import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.component';
 import { DetallesRepartidorComponent } from './paginas/detalles-repartidor/detalles-repartidor.component';
 import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/listado-repartidores.component';
+import { AltaPedidoComponent } from './paginas/alta-pedido/alta-pedido.component';
+import { CambiarEstadoComponent } from './paginas/cambiar-estado/cambiar-estado.component';
+import { DeliveryComponent } from './paginas/delivery/delivery.component';
+import { ModificarPedidoComponent } from './paginas/modificar-pedido/modificar-pedido.component';
 
 
 @NgModule({
@@ -38,7 +42,11 @@ import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/lis
     RepartidorDetalleComponent,
     DetallePaisComponent,
     DetallesRepartidorComponent,
-    ListadoRepartidoresComponent
+    ListadoRepartidoresComponent,
+    AltaPedidoComponent,
+    CambiarEstadoComponent,
+    DeliveryComponent,
+    ModificarPedidoComponent
     
    
   ],
