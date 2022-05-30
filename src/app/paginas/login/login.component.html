@@ -22,7 +22,7 @@
             <button class="mb-5 mr-2 btn btn-dark" (click)="this.empleadoLogin()">Empleado</button>
             <button class="mb-5 ml-2 btn btn-dark" (click)="this.adminLogin()">Admin</button>
           </div>
-          <button type="submit" class="mb-5 btn btn-outline-dark btn-lg btn-block" (click)="this.verificar()">Ingresar</button>
+          <button type="submit" class="mb-5 btn btn-outline-dark btn-lg btn-block" [disabled]='grupoControles.invalid' (click)="this.verificar()">Ingresar</button>
         </form>
       </div>
     </div>

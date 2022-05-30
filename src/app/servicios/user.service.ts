@@ -20,13 +20,15 @@ export class UserService {
     clave : "123"
   };
 
-  constructor() { }
+  constructor() { 
+  }
 
   logearse(usuario : Usuario)
   {
     if(usuario.usuario == this.empleado.usuario && usuario.clave == this.empleado.clave)
     {
         this.logeado = true;
+        this.administrador = false;
     }
     else
     {

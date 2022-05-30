@@ -22,9 +22,9 @@ const routes: Routes = [
   { path : 'errorAdmin', component: ErrorAdminComponent},
   { path: 'repartidor', loadChildren: () => import('./modulos/repartidor/repartidor.module').then(m => m.RepartidorModule), canActivate: [UserGuard] },
   { path : 'pizza-abm', component: PizzaABMComponent, canActivate: [AdminGuard]},
-  { path : 'pizza-alta', component: PizzaAltaComponent, canActivate: [AdminGuard]},
-  { path : 'pizza-modificar', component: PizzaModificarComponent, canActivate: [AdminGuard]},
-  { path : 'pizza-borrar', component: PizzaBorrarComponent, canActivate: [AdminGuard]},
+  { path : 'pizza-alta', component: PizzaAltaComponent},
+  { path : 'pizza-modificar', component: PizzaModificarComponent},
+  { path : 'pizza-borrar', component: PizzaBorrarComponent},
   { path: 'error' , component: ErrorComponent},
   { path : '**', component: ErrorComponent},
 ];
