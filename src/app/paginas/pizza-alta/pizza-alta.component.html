@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="mt-5 row">
+      
+        <h4 class="mb-3">Alta Pizza</h4>
+        <form class="needs-validation" [formGroup]="grupoControles" (ngSubmit)='cargarPizza()'>
+          <div class="row">
+            
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" formControlName='nombre' placeholder="Ingrese el nombre">
+                <small class="invalid" *ngIf="grupoControles.controls.nombre.errors?.required && grupoControles.controls.nombre.touched">El nombre es requerido</small>
+                
+                <label for="ingredientes">Ingredientes:</label>
+                <textarea type="text" class="form-control" formControlName='ingredientes' placeholder="Ingrese los ingredientes"></textarea>
+                <!-- <input type="text" class="form-control" formControlName='ingredientes' placeholder="Ingrese los ingredientes"> -->
+                <small class="invalid" *ngIf="grupoControles.controls.ingredientes.errors?.required && grupoControles.controls.ingredientes.touched">Los Ingredientes son requeridos</small>
+            
+            
+            
+                <label for="precio">Precio:</label>
+                <input type="number" class="form-control" formControlName='precio' placeholder="Ingrese el precio">
+                <small class="invalid" *ngIf="grupoControles.controls.precio.errors?.required && grupoControles.controls.precio.touched">El precio es requerido</small>
+                <small class="invalid" *ngIf="grupoControles.controls.precio.errors?.min">El precio no puede ser menor que 1</small>
+            
+              
+                <label for="peso">Peso:</label>
+                <input type="text" class="form-control" formControlName='peso' placeholder="Ingrese el peso en gramos">
+                <small class="invalid" *ngIf="grupoControles.controls.peso.errors?.required && grupoControles.controls.peso.touched">El peso es requerido</small>
+                <small class="invalid" *ngIf="grupoControles.controls.peso.errors?.min || grupoControles.controls.peso.errors?.max">Debe estar entre 500 y 1000 gramos</small>
+            
+          </div> 
+          <hr class="mb-4">
+          <button type="submit" class="mb-5 btn btn-dark btn-lg btn-block" [disabled]='grupoControles.invalid' >Agregar pizza</button>
+          
+          
+        </form>
+      
+    </div>
+</div>

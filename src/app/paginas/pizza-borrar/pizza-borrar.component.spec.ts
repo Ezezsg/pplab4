@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CambiarEstadoComponent } from './cambiar-estado.component';
+import { PizzaBorrarComponent } from './pizza-borrar.component';
 
-describe('CambiarEstadoComponent', () => {
-  let component: CambiarEstadoComponent;
-  let fixture: ComponentFixture<CambiarEstadoComponent>;
+describe('PizzaBorrarComponent', () => {
+  let component: PizzaBorrarComponent;
+  let fixture: ComponentFixture<PizzaBorrarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CambiarEstadoComponent ]
+      declarations: [ PizzaBorrarComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CambiarEstadoComponent);
+    fixture = TestBed.createComponent(PizzaBorrarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

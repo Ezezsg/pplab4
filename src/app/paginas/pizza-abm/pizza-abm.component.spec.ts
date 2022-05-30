@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AltaPedidoComponent } from './alta-pedido.component';
+import { PizzaABMComponent } from './pizza-abm.component';
 
-describe('AltaPedidoComponent', () => {
-  let component: AltaPedidoComponent;
-  let fixture: ComponentFixture<AltaPedidoComponent>;
+describe('PizzaABMComponent', () => {
+  let component: PizzaABMComponent;
+  let fixture: ComponentFixture<PizzaABMComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AltaPedidoComponent ]
+      declarations: [ PizzaABMComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AltaPedidoComponent);
+    fixture = TestBed.createComponent(PizzaABMComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

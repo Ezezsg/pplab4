@@ -23,10 +23,12 @@ import { RepartidorDetalleComponent } from './paginas/repartidor-detalle/reparti
 import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.component';
 import { DetallesRepartidorComponent } from './paginas/detalles-repartidor/detalles-repartidor.component';
 import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/listado-repartidores.component';
-import { AltaPedidoComponent } from './paginas/alta-pedido/alta-pedido.component';
-import { CambiarEstadoComponent } from './paginas/cambiar-estado/cambiar-estado.component';
-import { DeliveryComponent } from './paginas/delivery/delivery.component';
-import { ModificarPedidoComponent } from './paginas/modificar-pedido/modificar-pedido.component';
+import { PizzaAltaComponent } from './paginas/pizza-alta/pizza-alta.component';
+import { PizzaABMComponent } from './paginas/pizza-abm/pizza-abm.component';
+import { PizzaModificarComponent } from './paginas/pizza-modificar/pizza-modificar.component';
+import { PizzaBorrarComponent } from './paginas/pizza-borrar/pizza-borrar.component';
+
+
 
 
 @NgModule({
@@ -43,10 +45,10 @@ import { ModificarPedidoComponent } from './paginas/modificar-pedido/modificar-p
     DetallePaisComponent,
     DetallesRepartidorComponent,
     ListadoRepartidoresComponent,
-    AltaPedidoComponent,
-    CambiarEstadoComponent,
-    DeliveryComponent,
-    ModificarPedidoComponent
+    PizzaAltaComponent,
+    PizzaABMComponent,
+    PizzaModificarComponent,
+    PizzaBorrarComponent
     
    
   ],
