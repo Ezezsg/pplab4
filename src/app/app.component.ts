@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserService } from './servicios/user.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,8 +9,11 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'pplab4';
-  constructor()
+  constructor(public user : UserService, public router : Router)
   {}
 
+  salir(){
+    this.user.deslogearse();
+  }
 
 }
