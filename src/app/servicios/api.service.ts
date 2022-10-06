@@ -18,4 +18,9 @@ export class ApiService {
   {
     return this.https.get('https://restcountries.com/v2/alpha?codes=ng,za,esp,fr');
   }
+
+  traerRepartidores()
+  {
+    return this.firebase.collectionGroup('repartidores').valueChanges();
+  }
 }

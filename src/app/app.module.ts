@@ -19,6 +19,10 @@ import { TablaPaisesComponent } from './paginas/tabla-paises/tabla-paises.compon
 import { ErrorComponent } from './paginas/error/error.component';
 import { ErrorAdminComponent } from './paginas/error-admin/error-admin.component';
 import { ErrorLogeadoComponent } from './paginas/error-logeado/error-logeado.component';
+import { RepartidorDetalleComponent } from './paginas/repartidor-detalle/repartidor-detalle.component';
+import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/listado-repartidores.component';
+import { DetallesRepartidorComponent } from './paginas/detalles-repartidor/detalles-repartidor.component';
+import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.component';
 
 
 
@@ -31,7 +35,11 @@ import { ErrorLogeadoComponent } from './paginas/error-logeado/error-logeado.com
     TablaPaisesComponent,
     ErrorComponent,
     ErrorAdminComponent,
-    ErrorLogeadoComponent
+    ErrorLogeadoComponent,
+    RepartidorDetalleComponent,
+    ListadoRepartidoresComponent,
+    DetallesRepartidorComponent,
+    DetallePaisComponent
     
    
   ],

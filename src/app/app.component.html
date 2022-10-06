@@ -14,6 +14,9 @@
       <li class="nav-item">
         <a class="nav-link" [routerLink] = "['/repartidor/altaRepartidor']" style="cursor: pointer;">Alta repartidor</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink] = "['/repartidor/repartidorDetalle']" style="cursor: pointer;">Repartidores</a>
+      </li>
       <li class="nav-item" *ngIf="this.user.logeado">
         <a class="nav-link" [routerLink] = "['/login']" style="cursor: pointer;" (click)='salir()' >Salir</a>
       </li> 
