@@ -23,6 +23,10 @@ import { RepartidorDetalleComponent } from './paginas/repartidor-detalle/reparti
 import { ListadoRepartidoresComponent } from './paginas/listado-repartidores/listado-repartidores.component';
 import { DetallesRepartidorComponent } from './paginas/detalles-repartidor/detalles-repartidor.component';
 import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.component';
+import { PizzaABMComponent } from './paginas/pizza-abm/pizza-abm.component';
+import { PizzaAltaComponent } from './paginas/pizza-alta/pizza-alta.component';
+import { PizzaBorrarComponent } from './paginas/pizza-borrar/pizza-borrar.component';
+import { PizzaModificarComponent } from './paginas/pizza-modificar/pizza-modificar.component';
 
 
 
@@ -39,7 +43,12 @@ import { DetallePaisComponent } from './paginas/detalle-pais/detalle-pais.compon
     RepartidorDetalleComponent,
     ListadoRepartidoresComponent,
     DetallesRepartidorComponent,
-    DetallePaisComponent
+    DetallePaisComponent,
+    PizzaABMComponent,
+    PizzaAltaComponent,
+    PizzaBorrarComponent,
+    PizzaModificarComponent,
+    PizzaABMComponent
     
    
   ],
